@@ -435,3 +435,17 @@ USER-AGENT,*com.google.ios.youtubemusic*
 USER-AGENT,YouTubeMusic*
 USER-AGENT,com.google.ios.youtubemusic*
 DOMAIN,music.youtube.com
+
+
+# dns 代理列表
+DOMAIN-SUFFIX,dns.csaonline.de
+DOMAIN-SUFFIX,dns4me.net
+DOMAIN-SUFFIX,adguard-dns.com
+DOMAIN-SUFFIX,ipify.org
+DOMAIN-KEYWORD,dns
+
+DOMAIN-SUFFIX,dns.sb
+DOMAIN-SUFFIX,cloudflare-dns.com
+DOMAIN-SUFFIX,dns.google
+DOMAIN-SUFFIX,quad9.net
+DOMAIN-KEYWORD,cloudflare
