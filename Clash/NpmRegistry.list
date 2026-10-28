@@ -1,0 +1,4 @@
+# China npm registry mirrors - direct connect (must precede Developer.list DOMAIN-KEYWORD,registry)
+DOMAIN-SUFFIX,npmmirror.com
+DOMAIN-SUFFIX,npmjs.org
+DOMAIN-SUFFIX,taobao.org

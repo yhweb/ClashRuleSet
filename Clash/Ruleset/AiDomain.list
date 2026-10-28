@@ -16,7 +16,7 @@ DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-DOMAIN-SUFFIX,sentry.io
+#DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
@@ -105,8 +105,8 @@ DOMAIN-SUFFIX,cdn.syndication.twimg.com
 DOMAIN-SUFFIX,spoprod-a.akamaihd.net
 DOMAIN-SUFFIX,bingstatic.com
 DOMAIN-SUFFIX,yahoo.co.jp
-DOMAIN-SUFFIX,youtube.com
-DOMAIN-SUFFIX,ytimg.com
+#DOMAIN-SUFFIX,youtube.com
+#DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,r.msftstatic.com
 DOMAIN-SUFFIX,rafd.bing.com
 DOMAIN-SUFFIX,rafd.staging-bing-int.com
@@ -151,7 +151,7 @@ DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,makersuite.google.com
 DOMAIN-SUFFIX,ai.google.dev
 DOMAIN-SUFFIX,ai.google
-DOMAIN-SUFFIX,gstatic.com
+#DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,waa-pa.clients6.google.com
@@ -167,31 +167,31 @@ DOMAIN-SUFFIX,clients6.google.com
 
 # 内容：Google
 # 数量：24条
-DOMAIN-KEYWORD,gmail
-DOMAIN-KEYWORD,google
-DOMAIN-SUFFIX,1e100.net
-DOMAIN-SUFFIX,2mdn.net
-DOMAIN-SUFFIX,app-measurement.net
+#DOMAIN-KEYWORD,gmail
+#DOMAIN-KEYWORD,google
+#DOMAIN-SUFFIX,1e100.net
+#DOMAIN-SUFFIX,2mdn.net
+#DOMAIN-SUFFIX,app-measurement.net
 DOMAIN-SUFFIX,c.gle
-DOMAIN-SUFFIX,g.co
-DOMAIN-SUFFIX,ggpht.com
-DOMAIN-SUFFIX,goo.gl
-DOMAIN-SUFFIX,googleapis.cn
-DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,gstatic.cn
-DOMAIN-SUFFIX,gstatic.com
-DOMAIN-SUFFIX,gvt0.com
-DOMAIN-SUFFIX,gvt1.com
-DOMAIN-SUFFIX,gvt2.com
-DOMAIN-SUFFIX,gvt3.com
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,youtube-nocookie.com
-DOMAIN-SUFFIX,youtube.com
-DOMAIN-SUFFIX,yt.be
-DOMAIN-SUFFIX,ytimg.com
-IP-CIDR,74.125.0.0/16,no-resolve
-IP-CIDR,173.194.0.0/16,no-resolve
+#DOMAIN-SUFFIX,g.co
+#DOMAIN-SUFFIX,ggpht.com
+#DOMAIN-SUFFIX,goo.gl
+#DOMAIN-SUFFIX,googleapis.cn
+#DOMAIN-SUFFIX,googleapis.com
+#DOMAIN-SUFFIX,gstatic.cn
+#DOMAIN-SUFFIX,gstatic.com
+#DOMAIN-SUFFIX,gvt0.com
+#DOMAIN-SUFFIX,gvt1.com
+#DOMAIN-SUFFIX,gvt2.com
+#DOMAIN-SUFFIX,gvt3.com
+#DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+#DOMAIN-SUFFIX,youtu.be
+#DOMAIN-SUFFIX,youtube-nocookie.com
+#DOMAIN-SUFFIX,youtube.com
+#DOMAIN-SUFFIX,yt.be
+#DOMAIN-SUFFIX,ytimg.com
+##IP-CIDR,74.125.0.016,no-resolve
+##IP-CIDR,173.194.0.016,no-resolve
 DOMAIN-KEYWORD,goog
 DOMAIN-SUFFIX,fp-us-tmobile.rcs.telephony.goog
 
@@ -211,35 +211,35 @@ PROCESS-NAME,Google Drive
 
 # 内容：GoogleCN
 # 数量：29条
-DOMAIN-SUFFIX,265.com
-DOMAIN-SUFFIX,2mdn.net
-DOMAIN-SUFFIX,alt1-mtalk.google.com
-DOMAIN-SUFFIX,alt2-mtalk.google.com
-DOMAIN-SUFFIX,alt3-mtalk.google.com
-DOMAIN-SUFFIX,alt4-mtalk.google.com
-DOMAIN-SUFFIX,alt5-mtalk.google.com
-DOMAIN-SUFFIX,alt6-mtalk.google.com
-DOMAIN-SUFFIX,alt7-mtalk.google.com
-DOMAIN-SUFFIX,alt8-mtalk.google.com
-DOMAIN-SUFFIX,app-measurement.com
-DOMAIN-SUFFIX,cache.pack.google.com
-DOMAIN-SUFFIX,clickserve.dartsearch.net
-DOMAIN-SUFFIX,crl.pki.goog
-DOMAIN-SUFFIX,dl.google.com
-DOMAIN-SUFFIX,dl.l.google.com
-DOMAIN-SUFFIX,googletagmanager.com
-DOMAIN-SUFFIX,googletagservices.com
-DOMAIN-SUFFIX,gtm.oasisfeng.com
-DOMAIN-SUFFIX,mtalk.google.com
-DOMAIN-SUFFIX,ocsp.pki.goog
-DOMAIN-SUFFIX,recaptcha.net
-DOMAIN-SUFFIX,safebrowsing-cache.google.com
-DOMAIN-SUFFIX,settings.crashlytics.com
-DOMAIN-SUFFIX,ssl-google-analytics.l.google.com
-DOMAIN-SUFFIX,toolbarqueries.google.com
-DOMAIN-SUFFIX,tools.google.com
-DOMAIN-SUFFIX,tools.l.google.com
-DOMAIN-SUFFIX,www-googletagmanager.l.google.com
+#DOMAIN-SUFFIX,265.com
+#DOMAIN-SUFFIX,2mdn.net
+#DOMAIN-SUFFIX,alt1-mtalk.google.com
+#DOMAIN-SUFFIX,alt2-mtalk.google.com
+#DOMAIN-SUFFIX,alt3-mtalk.google.com
+#DOMAIN-SUFFIX,alt4-mtalk.google.com
+#DOMAIN-SUFFIX,alt5-mtalk.google.com
+#DOMAIN-SUFFIX,alt6-mtalk.google.com
+#DOMAIN-SUFFIX,alt7-mtalk.google.com
+#DOMAIN-SUFFIX,alt8-mtalk.google.com
+#DOMAIN-SUFFIX,app-measurement.com
+#DOMAIN-SUFFIX,cache.pack.google.com
+#DOMAIN-SUFFIX,clickserve.dartsearch.net
+#DOMAIN-SUFFIX,crl.pki.goog
+#DOMAIN-SUFFIX,dl.google.com
+#DOMAIN-SUFFIX,dl.l.google.com
+#DOMAIN-SUFFIX,googletagmanager.com
+#DOMAIN-SUFFIX,googletagservices.com
+#DOMAIN-SUFFIX,gtm.oasisfeng.com
+#DOMAIN-SUFFIX,mtalk.google.com
+#DOMAIN-SUFFIX,ocsp.pki.goog
+#DOMAIN-SUFFIX,recaptcha.net
+#DOMAIN-SUFFIX,safebrowsing-cache.google.com
+#DOMAIN-SUFFIX,settings.crashlytics.com
+#DOMAIN-SUFFIX,ssl-google-analytics.l.google.com
+#DOMAIN-SUFFIX,toolbarqueries.google.com
+#DOMAIN-SUFFIX,tools.google.com
+#DOMAIN-SUFFIX,tools.l.google.com
+#DOMAIN-SUFFIX,www-googletagmanager.l.google.com
 
 # 内容：GoogleEarth 谷歌地球
 # 数量：16条
@@ -262,6 +262,7 @@ DOMAIN-SUFFIX,mw1.google.com
 
 # 内容：GoogleFCM 谷歌推送服务
 # 数量：35条
+<<<<<<< Updated upstream
 DOMAIN,alt1-mtalk.google.com
 DOMAIN,alt2-mtalk.google.com
 DOMAIN,alt3-mtalk.google.com
@@ -297,18 +298,63 @@ IP-CIDR,172.253.122.188/32,no-resolve
 IP-CIDR,173.194.175.188/32,no-resolve
 IP-CIDR,173.194.218.188/32,no-resolve
 IP-CIDR,209.85.233.188/32,no-resolve
+=======
+#DOMAIN,alt1-mtalk.google.com
+#DOMAIN,alt2-mtalk.google.com
+#DOMAIN,alt3-mtalk.google.com
+#DOMAIN,alt4-mtalk.google.com
+#DOMAIN,alt5-mtalk.google.com
+#DOMAIN,alt6-mtalk.google.com
+#DOMAIN,alt7-mtalk.google.com
+#DOMAIN,alt8-mtalk.google.com
+#DOMAIN,mtalk.google.com
+#IP-CIDR,64.233.177.18832,no-resolve
+#IP-CIDR,64.233.186.18832,no-resolve
+#IP-CIDR,64.233.187.18832,no-resolve
+#IP-CIDR,64.233.188.18832,no-resolve
+#IP-CIDR,64.233.189.18832,no-resolve
+#IP-CIDR,74.125.23.18832,no-resolve
+#IP-CIDR,74.125.24.18832,no-resolve
+#IP-CIDR,74.125.28.18832,no-resolve
+#IP-CIDR,74.125.127.18832,no-resolve
+#IP-CIDR,74.125.137.18832,no-resolve
+#IP-CIDR,74.125.203.18832,no-resolve
+#IP-CIDR,74.125.204.18832,no-resolve
+#IP-CIDR,74.125.206.18832,no-resolve
+#IP-CIDR,108.177.125.18832,no-resolve
+#IP-CIDR,142.250.4.18832,no-resolve
+#IP-CIDR,142.250.10.18832,no-resolve
+#IP-CIDR,142.250.31.18832,no-resolve
+#IP-CIDR,142.250.96.18832,no-resolve
+#IP-CIDR,172.217.194.18832,no-resolve
+#IP-CIDR,172.217.218.18832,no-resolve
+#IP-CIDR,172.217.219.18832,no-resolve
+#IP-CIDR,172.253.63.18832,no-resolve
+#IP-CIDR,172.253.122.18832,no-resolve
+#IP-CIDR,173.194.175.18832,no-resolve
+#IP-CIDR,173.194.218.18832,no-resolve
+#IP-CIDR,209.85.233.18832,no-resolve
+>>>>>>> Stashed changes
 
 
 
 #补充
+<<<<<<< Updated upstream
 # >> Cursor
+=======
+#  Cursor
+>>>>>>> Stashed changes
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursor-cdn.com
 DOMAIN-SUFFIX,cursorapi.com
 DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,workos.com
 
+<<<<<<< Updated upstream
 # >> twitter
+=======
+#  twitter
+>>>>>>> Stashed changes
 DOMAIN-SUFFIX,ads-twitter.com
 DOMAIN-SUFFIX,cms-twdigitalassets.com
 DOMAIN-SUFFIX,periscope.tv
@@ -335,6 +381,7 @@ DOMAIN-SUFFIX,twvid.com
 DOMAIN-SUFFIX,vine.co
 DOMAIN-SUFFIX,x.com
 DOMAIN-KEYWORD,twitter
+<<<<<<< Updated upstream
 IP-CIDR,192.133.76.0/22
 IP-CIDR,199.59.148.0/22
 IP-CIDR,199.96.56.0/21
@@ -350,6 +397,23 @@ DOMAIN-SUFFIX,codeium.com
 # >> Trae
 DOMAIN-SUFFIX,trae.ai
 DOMAIN-SUFFIX,byteoversea.com
+=======
+#IP-CIDR,192.133.76.022
+#IP-CIDR,199.59.148.022
+#IP-CIDR,199.96.56.021
+#IP-CIDR,202.160.128.022
+#IP-CIDR,209.237.192.019
+#IP-CIDR,69.195.160.019
+
+
+#  Windsurf
+DOMAIN-SUFFIX,windsurf.com
+DOMAIN-SUFFIX,codeium.com
+
+#  Trae
+DOMAIN-SUFFIX,trae.ai
+#DOMAIN-SUFFIX,byteoversea.com
+>>>>>>> Stashed changes
 DOMAIN-SUFFIX,trae-api-sg.mchost.guru
 DOMAIN-SUFFIX,lf3-static.bytednsdoc.com
 DOMAIN-SUFFIX,bytegate-sg.byteintlapi.com
@@ -360,6 +424,7 @@ DOMAIN-SUFFIX,trae.com.cn
 DOMAIN-SUFFIX,tron.jiyunhudong.com
 DOMAIN-SUFFIX,starling.zijieapi.com
 
+<<<<<<< Updated upstream
 # >> OpenAI
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,auth0.com
@@ -370,6 +435,18 @@ DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gvt3.com
+=======
+#  OpenAI
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,auth0.com
+#DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,hcaptcha.com
+#DOMAIN-SUFFIX,recaptcha.net
+#DOMAIN-SUFFIX,gstatic.com
+#DOMAIN-SUFFIX,gvt2.com
+#DOMAIN-SUFFIX,gvt1.com
+#DOMAIN-SUFFIX,gvt3.com
+>>>>>>> Stashed changes
 DOMAIN-SUFFIX,msftconnecttest.com
 DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,sfx.ms
@@ -403,11 +480,22 @@ DOMAIN-SUFFIX,segment.io
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,turn.livekit.cloud
 DOMAIN-KEYWORD,openai
+<<<<<<< Updated upstream
 IP-CIDR,24.199.123.28/32
 IP-CIDR,64.23.132.171/32
 IP-ASN,20473
 
 # >> 订阅
+=======
+#IP-CIDR,24.199.123.2832
+#IP-CIDR,64.23.132.17132
+#IP-ASN,20473
+
+# openrouter
+DOMAIN-KEYWORD,openrouter
+
+#  订阅
+>>>>>>> Stashed changes
 DOMAIN-SUFFIX,vyy.idsduf.com
 DOMAIN-KEYWORD,vyy
 DOMAIN-SUFFIX,vyun.yun7g.top
@@ -415,9 +503,22 @@ DOMAIN-KEYWORD,vyun
 DOMAIN-SUFFIX,vyy.14kbuy.com
 
 
+<<<<<<< Updated upstream
 # >> 电子书地址
 DOMAIN-KEYWORD,z-lib
 DOMAIN-SUFFIX,z-lib.sk
 
 # >> 订阅
 DOMAIN-KEYWORD,xfltd
+=======
+#  电子书地址
+DOMAIN-KEYWORD,z-lib
+DOMAIN-SUFFIX,z-lib.sk
+
+#  订阅
+DOMAIN-KEYWORD,xfltd
+
+#爱一帆
+DOMAIN-SUFFIX,yfsp.tv
+DOMAIN-KEYWORD,av
+>>>>>>> Stashed changes
