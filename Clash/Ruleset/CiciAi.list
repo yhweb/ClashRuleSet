@@ -2,18 +2,10 @@
 PROCESS-NAME,Cici
 PROCESS-NAME,Cici Helper (Renderer)
 PROCESS-NAME,Cici Helper
-DOMAIN-KEYWORD,ciciai
-DOMAIN-KEYWORD,dola
 DOMAIN-KEYWORD,byteoversea
-DOMAIN-SUFFIX,cici.com
-DOMAIN-SUFFIX,dola.com
-DOMAIN-SUFFIX,ciciai.com
 DOMAIN-SUFFIX,vcs-sg.byteoversea.com
-DOMAIN-SUFFIX,vmweb-va.ciciai.com
-DOMAIN-SUFFIX,mcs-va.ciciai.com
 DOMAIN-SUFFIX,lf-rc1.yhgfb-static.com
 DOMAIN-SUFFIX,itobsnssdk.com
-DOMAIN-SUFFIX,ciciaicdn.com
 DOMAIN-SUFFIX,abtestvm-sg.bytedance.com
 DOMAIN-SUFFIX,starling-oversea.byteoversea.com
 DOMAIN-SUFFIX,sf16-tcc-tos-sg.byteoversea.com
@@ -24,22 +16,15 @@ IP-CIDR,23.41.4.0/22,no-resolve
 
 
 #trae  + MarsCode Oversea version
-PROCESS-NAME,Trae Helper
-PROCESS-NAME,Trae Helper (Plugin)
 PROCESS-NAME,ai
 PROCESS-NAME,ai-agent
 PROCESS-NAME,ai-completion
-DOMAIN-SUFFIX,trae.ai
 DOMAIN-SUFFIX,bytednsdoc.com
 DOMAIN-SUFFIX,mchost.guru
 
-DOMAIN-SUFFIX,marscode.com
-DOMAIN-SUFFIX,api.marscode.com
-DOMAIN-SUFFIX,api-sg-central.marscode.com
 DOMAIN-SUFFIX,mon-va.byteoversea.com
 DOMAIN-SUFFIX,sgali-mcs.byteoversea.com
 DOMAIN-SUFFIX,maliva-mcs.byteoversea.com
-DOMAIN-SUFFIX,lf-cdn.marscode.com
 DOMAIN-SUFFIX,abtestvm.bytedance.com
 
 

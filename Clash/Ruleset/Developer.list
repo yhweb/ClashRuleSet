@@ -25,9 +25,6 @@ DOMAIN-SUFFIX,stackoverflow.com
 DOMAIN-SUFFIX,registry.gitlab.com
 DOMAIN-SUFFIX,mcr.microsoft.com
 #huggingface
-DOMAIN-SUFFIX,huggingface.co
-DOMAIN-SUFFIX,hf.co
-DOMAIN-KEYWORD,huggingface
 
 
 DOMAIN-SUFFIX,r2.cloudflarestorage.com
@@ -48,7 +45,6 @@ DOMAIN-SUFFIX,rawgit.com
 DOMAIN-SUFFIX,rawgithub.com
 
 # LM studio
-DOMAIN-SUFFIX,lmstudio.ai
 # draw things
 DOMAIN-SUFFIX,static.libnnc.org
 # OrbStack Helper
@@ -56,20 +52,3 @@ PROCESS-NAME,OrbStack
 PROCESS-NAME,OrbStack Helper
 
 # ===== 编程类 AI（自 AiDomain 迁入，避免抢占美区AI 出口）=====
-DOMAIN-SUFFIX,cursor.com
-DOMAIN-SUFFIX,cursor.sh
-DOMAIN-SUFFIX,api2.cursor.sh
-DOMAIN-SUFFIX,cursorapi.com
-DOMAIN-SUFFIX,windsurf.com
-DOMAIN-SUFFIX,codeium.com
-DOMAIN-SUFFIX,continue.dev
-DOMAIN-SUFFIX,replit.com
-DOMAIN-SUFFIX,zed.dev
-DOMAIN-SUFFIX,tabnine.com
-DOMAIN-SUFFIX,qodo.ai
-DOMAIN-SUFFIX,supermaven.com
-DOMAIN-SUFFIX,augmentcode.com
-DOMAIN-SUFFIX,devin.ai
-DOMAIN-SUFFIX,app.devin.ai
-DOMAIN-SUFFIX,docs.devin.ai
-DOMAIN-SUFFIX,cognition.ai

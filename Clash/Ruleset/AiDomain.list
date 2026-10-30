@@ -226,5 +226,48 @@ DOMAIN-SUFFIX,sider.ai
 DOMAIN-SUFFIX,civitai.com
 DOMAIN-SUFFIX,monica.im
 
+
+# ===== AI 编程工具（2026-10-30 从 Developer.list 并入，统一走美区AI）=====
+# Cursor / Windsurf / Codeium / Continue / Replit / Zed / Tabnine / Qodo / Supermaven / Augment / Devin / Cognition
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,hf.co
+DOMAIN-KEYWORD,huggingface
+DOMAIN-SUFFIX,lmstudio.ai
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,api2.cursor.sh
+DOMAIN-SUFFIX,cursorapi.com
+DOMAIN-SUFFIX,windsurf.com
+DOMAIN-SUFFIX,codeium.com
+DOMAIN-SUFFIX,continue.dev
+DOMAIN-SUFFIX,replit.com
+DOMAIN-SUFFIX,zed.dev
+DOMAIN-SUFFIX,tabnine.com
+DOMAIN-SUFFIX,qodo.ai
+DOMAIN-SUFFIX,supermaven.com
+DOMAIN-SUFFIX,augmentcode.com
+DOMAIN-SUFFIX,devin.ai
+DOMAIN-SUFFIX,app.devin.ai
+DOMAIN-SUFFIX,docs.devin.ai
+DOMAIN-SUFFIX,cognition.ai
+
+# ===== 字节海外 AI：Cici / Dola / Trae / MarCode（从 CiciAi.list 并入）=====
+# TikTok / CapCut / Lemon8 等非 AI 应用仍留在 🌈 CiciAI 分组
+DOMAIN-KEYWORD,ciciai
+DOMAIN-KEYWORD,dola
+DOMAIN-SUFFIX,cici.com
+DOMAIN-SUFFIX,dola.com
+DOMAIN-SUFFIX,ciciai.com
+DOMAIN-SUFFIX,vmweb-va.ciciai.com
+DOMAIN-SUFFIX,mcs-va.ciciai.com
+DOMAIN-SUFFIX,ciciaicdn.com
+PROCESS-NAME,Trae Helper
+PROCESS-NAME,Trae Helper (Plugin)
+DOMAIN-SUFFIX,trae.ai
+DOMAIN-SUFFIX,marscode.com
+DOMAIN-SUFFIX,api.marscode.com
+DOMAIN-SUFFIX,api-sg-central.marscode.com
+DOMAIN-SUFFIX,lf-cdn.marscode.com
+
 # ===== 平台通用依赖：仅保留 OpenAI/Anthropic 确实依赖的验证域名（已删 auth0/identrust/segment/intercom/datadog 等全域）=====
 DOMAIN-SUFFIX,challenges.cloudflare.com
