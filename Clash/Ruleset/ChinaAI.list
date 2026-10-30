@@ -43,7 +43,6 @@ DOMAIN-SUFFIX,coze.com
 
 # ===== MiniMax 稀宇 =====
 DOMAIN-SUFFIX,minimaxi.com
-DOMAIN-SUFFIX,minimax.io
 DOMAIN-SUFFIX,hailuoai.com
 DOMAIN-SUFFIX,hailuoai.video
 
@@ -75,3 +74,7 @@ DOMAIN-SUFFIX,xfyun.cn
 DOMAIN-SUFFIX,modelscope.com
 DOMAIN-SUFFIX,mindspore.cn
 DOMAIN-SUFFIX,paddlepaddle.org.cn
+
+# ===== 国内版 / 海外版需分流的厂商（国内版走直连）=====
+DOMAIN-SUFFIX,trae.com.cn
+DOMAIN-SUFFIX,klingai.cn

@@ -12,26 +12,14 @@ DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,chatgpt.livekit.cloud
-DOMAIN-SUFFIX,host.livekit.cloud
-DOMAIN-SUFFIX,turn.livekit.cloud
 DOMAIN-SUFFIX,openaicom.imgix.net
 DOMAIN,openaicomproductionae4b.blob.core.windows.net
 DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN,production-openaicom-storage.azureedge.net
 DOMAIN,chat.openai.com.cdn.cloudflare.net
-DOMAIN-SUFFIX,auth0.com
-DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN,openai-api.arkoselabs.com
-DOMAIN-SUFFIX,hcaptcha.com
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN-SUFFIX,api.statsig.com
-DOMAIN-SUFFIX,events.statsigapi.net
-DOMAIN-SUFFIX,featuregates.org
-DOMAIN-SUFFIX,launchdarkly.com
-DOMAIN-SUFFIX,segment.io
 DOMAIN,browser-intake-datadoghq.com
 
 # ===== Anthropic / Claude =====
@@ -93,7 +81,6 @@ DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN-SUFFIX,api.githubcopilot.com
 DOMAIN-SUFFIX,github.gallery.vsassets.io
 DOMAIN-SUFFIX,github.gallerycdn.vsassets.io
-DOMAIN-SUFFIX,applicationinsights.azure.com
 PROCESS-NAME,Code Helper
 PROCESS-NAME,Code Helper (Plugin)
 
@@ -108,10 +95,6 @@ DOMAIN-SUFFIX,bingstatic.com
 DOMAIN-SUFFIX,r.bing.com
 DOMAIN-SUFFIX,raka.bing.com
 DOMAIN-SUFFIX,rcf.bing.com
-
-# ===== LM Studio =====
-PROCESS-NAME,LM Studio
-DOMAIN-SUFFIX,lmstudio.ai
 
 # ===== Mistral =====
 DOMAIN-SUFFIX,mistral.ai
@@ -177,3 +160,61 @@ DOMAIN-SUFFIX,fal.run
 DOMAIN-SUFFIX,deepinfra.com
 DOMAIN-SUFFIX,novita.ai
 DOMAIN-SUFFIX,hyperbrowser.ai
+
+# ===== Meta AI =====
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,ai.meta.com
+DOMAIN-SUFFIX,llama.com
+
+# ===== Pi (Inflection) / Character.AI =====
+DOMAIN-SUFFIX,pi.ai
+DOMAIN-SUFFIX,heypi.com
+DOMAIN-SUFFIX,inflection.ai
+DOMAIN-SUFFIX,character.ai
+DOMAIN-SUFFIX,poecdn.com
+
+# ===== Google AI 精确子域（勿用 DOMAIN-KEYWORD,goog）=====
+DOMAIN-SUFFIX,notebooklm.google.com
+DOMAIN-SUFFIX,labs.google
+DOMAIN-SUFFIX,jules.google.com
+DOMAIN-SUFFIX,aiplatform.googleapis.com
+
+# ===== SambaNova / AI21 / Writer / Aleph Alpha =====
+DOMAIN-SUFFIX,sambanova.ai
+DOMAIN-SUFFIX,api.sambanova.ai
+DOMAIN-SUFFIX,ai21.com
+DOMAIN-SUFFIX,api.ai21.com
+DOMAIN-SUFFIX,writer.com
+DOMAIN-SUFFIX,aleph-alpha.com
+
+# ===== 搜索式 AI（Phind / Exa / Tavily / Kagi / You.com）=====
+DOMAIN-SUFFIX,phind.com
+DOMAIN-SUFFIX,exa.ai
+DOMAIN-SUFFIX,api.exa.ai
+DOMAIN-SUFFIX,tavily.com
+DOMAIN-SUFFIX,api.tavily.com
+DOMAIN-SUFFIX,kagi.com
+DOMAIN-SUFFIX,kagisearch.com
+DOMAIN-SUFFIX,assistant.kagi.com
+DOMAIN-SUFFIX,you.com
+DOMAIN-SUFFIX,api.you.com
+
+# ===== 图像 / 视频生成补充（Stability / Kling 海外 / Pika / Firefly / Runway）=====
+DOMAIN-SUFFIX,stability.ai
+DOMAIN-SUFFIX,api.stability.ai
+DOMAIN-SUFFIX,klingai.com
+DOMAIN-SUFFIX,pika.art
+DOMAIN-SUFFIX,firefly.adobe.com
+DOMAIN-SUFFIX,runway.com
+
+# ===== 云 / 平台 AI 端点 =====
+DOMAIN-SUFFIX,integrate.api.nvidia.com
+DOMAIN-SUFFIX,build.nvidia.com
+DOMAIN-SUFFIX,bedrock-runtime.us-east-1.amazonaws.com
+DOMAIN-SUFFIX,workers.cloudflare.com
+
+# ===== MiniMax 海外站（国内站 minimaxi.com 走直连，见 ChinaAI.list）=====
+DOMAIN-SUFFIX,minimax.io
+
+# ===== 平台通用依赖：仅保留 OpenAI/Anthropic 确实依赖的验证域名（已删 auth0/identrust/segment/intercom/datadog 等全域）=====
+DOMAIN-SUFFIX,challenges.cloudflare.com
