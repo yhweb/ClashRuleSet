@@ -250,6 +250,10 @@ DOMAIN-SUFFIX,devin.ai
 DOMAIN-SUFFIX,app.devin.ai
 DOMAIN-SUFFIX,docs.devin.ai
 DOMAIN-SUFFIX,cognition.ai
+# Sourcegraph Cody（AI 编程助手，2026-10-30 自 Developer 迁入）
+DOMAIN-SUFFIX,sourcegraph.com
+# Draw Things / LM Studio 本地模型下载 CDN（2026-10-30 自 Developer 迁入）
+DOMAIN-SUFFIX,static.libnnc.org
 
 # ===== 字节海外 AI：Cici / Dola / Trae / MarCode（从 CiciAi.list 并入）=====
 # TikTok / CapCut / Lemon8 等非 AI 应用仍留在 🌈 CiciAI 分组
