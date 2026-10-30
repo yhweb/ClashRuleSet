@@ -1,4 +1,55 @@
-# China npm registry mirrors - direct connect (must precede Developer.list DOMAIN-KEYWORD,registry)
+# 国内开发镜像 / 包管理 / 容器加速源 —— 一律走 🎯 全球直连
+# 位置要求：本 ruleset 必须排在 Clash/Ruleset/Developer.list 之前，
+#   否则 Developer.list 的 DOMAIN-KEYWORD,registry 会抢走 registry.cn-hangzhou.aliyuncs.com
+#   这类国内容器镜像域名。（kclash.local.ini 第 14 行 = 本文件，第 15 行 = Developer.list）
+# 覆盖：npm / PyPI / Maven / Go / RubyGems / Composer / 容器镜像加速
+# 说明：*.cn 的清华、中科大、各高校镜像站已由 ChinaDomain.list 的 DOMAIN-SUFFIX,cn 兜底走直连，
+#       本文件只补「非 .cn 域名」里会被误判到 Developer / 节点选择 的国内源。
+
+# ===== npm =====
 DOMAIN-SUFFIX,npmmirror.com
+DOMAIN-SUFFIX,npmmirror.cn
 DOMAIN-SUFFIX,npmjs.org
 DOMAIN-SUFFIX,taobao.org
+DOMAIN-SUFFIX,cnpmjs.org
+DOMAIN-SUFFIX,yarnpkg.com
+
+# ===== 阿里云 / 华为云 / 腾讯云 / 网易镜像站 =====
+DOMAIN-SUFFIX,mirrors.aliyun.com
+DOMAIN-SUFFIX,mirrors.cloud.aliyuncs.com
+DOMAIN-SUFFIX,mirrors.aliyuncs.com
+DOMAIN-SUFFIX,developer.aliyun.com
+DOMAIN-SUFFIX,mirrors.huaweicloud.com
+DOMAIN-SUFFIX,repo.huaweicloud.com
+DOMAIN-SUFFIX,linux.huaweicloud.com
+DOMAIN-SUFFIX,mirrors.cloud.tencent.com
+DOMAIN-SUFFIX,mirrors.tencent.com
+DOMAIN-SUFFIX,mirrors.163.com
+
+# ===== Maven / Gradle =====
+DOMAIN-SUFFIX,maven.aliyun.com
+
+# ===== Go module =====
+DOMAIN-SUFFIX,goproxy.io
+DOMAIN-SUFFIX,rsproxy.cn
+DOMAIN-SUFFIX,goproxy.cn
+
+# ===== RubyGems =====
+DOMAIN-SUFFIX,gems.ruby-china.com
+DOMAIN-SUFFIX,ruby-china.org
+
+# ===== Composer / Packagist =====
+DOMAIN-SUFFIX,packagist.phpcomposer.com
+
+# ===== 容器镜像加速（关键：这些域名含 registry 会被 Developer 误吃）=====
+DOMAIN-SUFFIX,registry.cn-hangzhou.aliyuncs.com
+DOMAIN-SUFFIX,registry.cn-beijing.aliyuncs.com
+DOMAIN-SUFFIX,registry.cn-shanghai.aliyuncs.com
+DOMAIN-SUFFIX,registry.cn-shenzhen.aliyuncs.com
+DOMAIN-SUFFIX,registry.cn-guangzhou.aliyuncs.com
+DOMAIN-SUFFIX,registry.cn-hongkong.aliyuncs.com
+DOMAIN-SUFFIX,docker.m.daocloud.io
+DOMAIN-SUFFIX,dockerproxy.com
+DOMAIN-SUFFIX,docker.1panel.live
+DOMAIN-SUFFIX,hub-mirror.c.163.com
+DOMAIN-SUFFIX,mirror.ccs.tencentyun.com
