@@ -216,5 +216,15 @@ DOMAIN-SUFFIX,workers.cloudflare.com
 # ===== MiniMax 海外站（国内站 minimaxi.com 走直连，见 ChinaAI.list）=====
 DOMAIN-SUFFIX,minimax.io
 
+
+# ===== Qwen 海外站 / 第三方 AI 助手与聚合（2026-10-30 补录）=====
+# qwen.ai 与 qwenlm.ai 为阿里通义千问海外站；国内 tongyi.aliyun.com / dashscope 见 ChinaAI.list 走直连
+# civitai.com=AI 模型社区；monica.im / sider.ai=第三方 AI 助手
+DOMAIN-SUFFIX,qwen.ai
+DOMAIN-SUFFIX,qwenlm.ai
+DOMAIN-SUFFIX,sider.ai
+DOMAIN-SUFFIX,civitai.com
+DOMAIN-SUFFIX,monica.im
+
 # ===== 平台通用依赖：仅保留 OpenAI/Anthropic 确实依赖的验证域名（已删 auth0/identrust/segment/intercom/datadog 等全域）=====
 DOMAIN-SUFFIX,challenges.cloudflare.com
